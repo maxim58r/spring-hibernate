@@ -29,6 +29,21 @@ public class MainApp {
             System.out.println();
         }
 
+//        CarService carService = context.getBean(CarService.class);
+//
+//        carService.add(new Car("BMW", 1));
+//        carService.add(new Car("AUDI", 3));
+//        carService.add(new Car("MERCEDES", 166));
+//        carService.add(new Car("TOYOTA", 200));
+//
+//        List<Car> cars = carService.listCars();
+//        for (Car car : cars) {
+//            System.out.println("Id = " + car.getId());
+//            System.out.println("First Name = " + car.getModel());
+//            System.out.println("Last Name = " + car.getSeries());
+//            System.out.println();
+//        }
+
         context.close();
     }
 }
