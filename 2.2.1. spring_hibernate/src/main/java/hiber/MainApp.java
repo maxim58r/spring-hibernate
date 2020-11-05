@@ -47,6 +47,7 @@ public class MainApp {
         }
         User user = userService.getUser("AUDI", 3);
         System.out.println(user);
+
         context.close();
     }
 }
